@@ -1,0 +1,21 @@
+{
+  "name": "jquery-direct",
+  "description": "jquery extend functions",
+  "main": "jquery-direct.js",
+  "authors": [
+    "Thomas Jang <tom@axisj.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "jquery",
+    "extends"
+  ],
+  "homepage": "https://github.com/thomasJang/jquery-direct",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
