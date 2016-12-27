@@ -35,7 +35,7 @@ gulp.task('default', function () {
  */
 gulp.task('JS', function (k, __p) {
 
-    return gulp.src(['src/*.js'])
+    return gulp.src(['src/extends/*.js', 'src/extender.js'])
         .pipe(plumber({errorHandler: errorAlert}))
         .pipe(sourcemaps.init())
         .pipe(concat('jquery-direct.js'))
