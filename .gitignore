@@ -1,0 +1,10 @@
+# Created by .ignore support plugin (hsz.mobi)
+node_modules
+bower_components
+.idea
+*.ignore.js
+*.iml
+.DS_Store
+_git
+**/test/bower_components
+yarn.lock

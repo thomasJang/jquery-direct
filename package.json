@@ -1,0 +1,38 @@
+{
+  "name": "jquery-direct",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thomasJang/jquery-direct"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "karma start karma.conf.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.0.0",
+    "babel-preset-es2015": "",
+    "fs-finder": "^1.8.1",
+    "gulp": "*",
+    "gulp-babel": "^6.1.2",
+    "gulp-changed": "*",
+    "gulp-clean": "",
+    "gulp-concat": "*",
+    "gulp-jsdoc-to-markdown": "",
+    "gulp-jsdoc3": "^0.3.0",
+    "gulp-json-editor": "^2.2.1",
+    "gulp-notify": "",
+    "gulp-plumber": "",
+    "gulp-rename": "^1.2.2",
+    "gulp-replace": "^0.5.4",
+    "gulp-sass": "^2.1.1",
+    "gulp-shell": "^0.5.2",
+    "gulp-sourcemaps": "",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "*"
+  }
+}
