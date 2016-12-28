@@ -1,6 +1,4 @@
 /**
  *
  */
-jQuery.fn.extend({
-    clickAttr: jqueryDirectFunctions["clickAttr"]
-});
+jQuery.fn.extend(jqueryDirectFunctions);

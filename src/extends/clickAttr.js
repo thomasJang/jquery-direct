@@ -17,5 +17,5 @@
         return this;
     };
 
-    window.jqueryDirectFunctions = clickAttr;
+    jqueryDirectFunctions["clickAttr"] = clickAttr;
 })();

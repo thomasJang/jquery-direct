@@ -19,11 +19,9 @@
         return this;
     };
 
-    window.jqueryDirectFunctions = clickAttr;
+    jqueryDirectFunctions["clickAttr"] = clickAttr;
 })();
 /**
  *
  */
-jQuery.fn.extend({
-    clickAttr: jqueryDirectFunctions["clickAttr"]
-});
+jQuery.fn.extend(jqueryDirectFunctions);
